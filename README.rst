@@ -21,3 +21,6 @@ Versions tested
 License
 =======
 BSD 3-Clause "New" or "Revised" License. See LICENSE.txt for details.
+
+
+This repo was forked and detatched from https://github.com/woodcrafty/PyETo so lots of credit goes to these developers for providing a great codebase to build off of.
