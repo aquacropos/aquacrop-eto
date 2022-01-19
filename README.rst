@@ -1,4 +1,4 @@
-*PyETo* is a Python library for calculating reference crop evapotranspiration
+*aquacrop-eto* is a Python library for calculating reference crop evapotranspiration
 (ET\ :sub:`o`\ ), sometimes referred to as potential evapotranspiration (PET).
 The library provides numerous functions for estimating missing meteorological
 data.
