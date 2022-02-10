@@ -2,17 +2,17 @@
 from setuptools import setup
 
 setup(
-    name='PyETo',
+    name='aquacropeto',
     version='0.2.0',
     description=(
         'Library for estimating reference and potential evapotranspiration.'
     ),
     long_description=open('README.rst').read(),
-    author='Mark Richards',
-    author_email='mark.l.a.richardsREMOVETHIS@gmail.com',
+    author='Tom Kelly',
+    author_email='REMOVETHIS@gmail.com',
     license='BSD 3-Clause',
     url='None',
-    packages=['pyeto'],
+    packages=['aquacropeto'],
     package_data={'': ['*.rst', '*.txt']},
     test_suite='tests',
     classifiers=[
