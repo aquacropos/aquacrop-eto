@@ -1,5 +1,5 @@
-*aquacrop-eto* is a Python library for calculating reference crop evapotranspiration
-(ET\ :sub:`o`\ ), sometimes referred to as potential evapotranspiration (PET).
+*aquacrop-eto* is an actively developed fork of PyETo (https://github.com/woodcrafty/PyEToPython) for calculating reference crop evapotranspiration
+(ET\ :sub:`o`\ ).
 The library provides numerous functions for estimating missing meteorological
 data.
 
@@ -9,18 +9,8 @@ Three methods for estimating ET\ :sub:`o`\ /PET are implemented:
 * Hargreaves (Hargreaves and Samani, 1982; 1985)
 * Thornthwaite (Thornthwaite, 1948)
 
-The documentation can be found at TODO: insert link
-
-Installation
-============
-
-
-Versions tested
-===============
-
-License
-=======
-BSD 3-Clause "New" or "Revised" License. See LICENSE.txt for details.
+```
+pip install aquacrop-eto
+```
 
 
-This repo was forked and detatched from https://github.com/woodcrafty/PyETo so lots of credit goes to these developers for providing a great codebase to build off of.
