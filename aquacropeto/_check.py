@@ -4,7 +4,7 @@ Internal validation functions.
 :copyright: (c) 2015 by Mark Richards.
 :license: BSD 3-Clause, see LICENSE.txt for more details.
 """
-from pyeto.convert import deg2rad
+from aquacropeto.convert import deg2rad
 
 # Internal constants
 # Latitude

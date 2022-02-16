@@ -1,9 +1,16 @@
 
 from setuptools import setup
 
+requirements = [
+    "numpy",
+    "pandas",
+    "pathlib"
+]
+
+
 setup(
     name='aquacropeto',
-    version='0.2.0',
+    version='0.1.0',
     description=(
         'Library for estimating reference and potential evapotranspiration.'
     ),
@@ -13,8 +20,8 @@ setup(
     license='BSD 3-Clause',
     url='None',
     packages=['aquacropeto'],
+    install_requires=requirements,
     package_data={'': ['*.rst', '*.txt']},
-    test_suite='tests',
     classifiers=[
         'Programming Language :: Python',
         "Programming Language :: Python :: 2.7",

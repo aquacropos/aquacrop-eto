@@ -1,14 +1,14 @@
 
-import pyeto
+import aquacropeto
 
-from pyeto.convert import (
+from aquacropeto.convert import (
     celsius2kelvin,
     kelvin2celsius,
     deg2rad,
     rad2deg,
 )
 
-from pyeto.fao import (
+from aquacropeto.fao import (
     atm_pressure,
     avp_from_tmin,
     avp_from_rhmin_rhmax,
@@ -45,7 +45,7 @@ from pyeto.fao import (
     wind_speed_2m,
 )
 
-from pyeto.thornthwaite import (
+from aquacropeto.thornthwaite import (
     thornthwaite,
     monthly_mean_daylight_hours,
 )
