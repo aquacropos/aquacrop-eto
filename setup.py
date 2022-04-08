@@ -1,11 +1,20 @@
 
+import sys
 from setuptools import setup
 
-requirements = [
-    "numpy",
-    "pandas",
-    "pathlib"
-]
+if (sys.version_info.major == 3 and sys.version_info.minor >= 4):
+    # Pathlib should be avail. from Python 3.4
+    # https://docs.python.org/3/library/pathlib.html
+    requirements = [
+        "numpy",
+        "pandas",
+    ]
+else:
+    requirements = [
+        "numpy",
+        "pandas",
+        "pathlib"
+    ]
 
 
 setup(
