@@ -582,7 +582,7 @@ def sol_rad_from_t(et_rad, cs_rad, tmin, tmax, coastal):
     sol_rad = adj * np.sqrt(tmax - tmin) * et_rad
 
     # The solar radiation value is constrained by the clear sky radiation
-    return np.min(sol_rad, cs_rad)
+    return np.minimum(sol_rad, cs_rad)
 
 
 def sol_rad_island(et_rad):
